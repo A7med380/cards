@@ -1,0 +1,87 @@
+body {
+    font-family: "Inter", sans-serif;
+}
+
+.card {
+    display: flex;
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 1200px;
+    height: 475px;
+    margin: 40px auto;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    justify-content: space-around;
+0808}
+
+.card-item {
+    width: 350px;
+    height: 425px;
+    margin-top: 25px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 4rem 14rem 0 rgb(0 0 0 / 11%);
+}
+
+.card-item:hover {
+    transform: translateY(-0.5%);
+    box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.2);
+}
+
+.card_img {
+    width: 350px;
+    height: 40%;
+}
+
+.card__header {
+    font-weight: 500;
+    color: #0d0d0d;
+    margin-bottom: 1.5rem;
+    margin-left: 2.5rem;
+}
+
+.card__text {
+    letter-spacing: 0.1rem;
+    line-height: 1.7;
+    color: #3d3d3d;
+    margin-bottom: 2.5rem;
+    margin-left: 2.5rem;
+}
+
+.card__btn {
+    display: block;
+    width: 85%;
+    padding: 1rem;
+    font-size: 1rem;
+    text-align: center;
+    color: #3363ff;
+    background-color: #e6ecff;
+    border: none;
+    border-radius: 0.4rem;
+    transition: 0.2s;
+    cursor: pointer;
+    position: absolute;
+    bottom: 20px;
+    left: 26.25px;
+}
+
+.card__btn span {
+    margin-left: 0.5rem;
+    transition: 0.2s;
+}
+
+.card__btn:hover, .card__btn:active {
+    background-color: #dce4ff;
+}
+
+.card__btn:hover span, .card__btn:active span {
+    margin-left: 0.9rem;
+}
+
+.card__btn:hover .card-item {
+    margin-bottom: 5px;
+    background-color: red;
+}
+
